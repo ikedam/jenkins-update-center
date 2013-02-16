@@ -4,6 +4,37 @@
 	<title>Jenkins update center for ikedam plugins</title>
 </head>
 <body>
-Under construction...
+<h1>Jenkins update center for ikedam plugins</h1>
+<h2>Description</h2>
+<p>Here is an additional Jenkins update center to provide plugins developed by <a title="ikedam in GitHub" href="https://github.com/ikedam">ikedam</a>. Plugins hosted in official Jenkins sites are not provided here.</p>
+
+<h2>How to use</h2>
+<p>To have your Jenkins access to this update center, follow these instructions:</p>
+<ol>
+	<li>Stop your Jenkins.</li>
+	<li>Open ${JENKINS_HOME}/hudson.model.UpdateCenter.xml with a text editor.</li>
+	<li>Update its contens as following:<pre>
+&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+&lt;sites&gt;
+    &lt;site&gt;
+        &lt;id&gt;default&lt;/id&gt;
+        &lt;url&gt;http://updates.jenkins-ci.org/update-center.json&lt;/url&gt;
+      &lt;/site&gt;
+      &lt;!-- Add Here --&gt;
+      &lt;site&gt;
+        &lt;id&gt;ikedam-update-center&lt;/id&gt;
+        &lt;url&gt;http://ikedam.github.com/jenkins-update-center/update-center.json&lt;/url&gt;
+      &lt;/site&gt;
+      &lt;!-- Add Here --&gt;
+&lt;/sites&gt;
+</pre>
+	<li>Put <a title="Certificate file for ikedam Jenkins Update Center." href="ikedam-update-center.crt">ikedam-update-center.crt</a> in ${JENKINS_HOME}/war/WEB-INF/update-center-rootCAs/</li>
+	<li>Start your Jenkins.</li>
+	<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
+	<li>Click "Check now"</li>
+</ol>
+<p>For details, see <a href="https://github.com/ikedam/backend-update-center2/wiki/How-to-create-your-own-Jenkins-Update-Center" title="How to create your own Jenkins Update Center">How to create your own Jenkins Update Center</a>.
+<hr>
+Copyright 2013 ikedam
 </body>
 </html>
