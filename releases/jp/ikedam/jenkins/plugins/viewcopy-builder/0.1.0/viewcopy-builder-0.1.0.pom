@@ -16,7 +16,7 @@
   <description>Jenkins plugin to copy a view in a build step.</description>
   
   <!-- disable here when hosted in jenkins-ci.org -->
-  <url>https://github.com/ikedam/${project.artifactId}</url>
+  <url>https://github.com/ikedam/viewcopy-builder</url>
   
   <scm>
     <connection>scm:git:git://github.com/ikedam/${project.artifactId}.git</connection>
