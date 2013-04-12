@@ -11,34 +11,13 @@
 <h2>How to use</h2>
 <p>To have your Jenkins access to this update center, follow these instructions:</p>
 <ol>
-	<li>Stop your Jenkins.</li>
-	<li>Open ${JENKINS_HOME}/hudson.model.UpdateCenter.xml with a text editor.</li>
-	<li>Update its contens as following:<pre>
-&lt;?xml version='1.0' encoding='UTF-8'?&gt;
-&lt;sites&gt;
-    &lt;site&gt;
-        &lt;id&gt;default&lt;/id&gt;
-        &lt;url&gt;http://updates.jenkins-ci.org/update-center.json&lt;/url&gt;
-      &lt;/site&gt;
-      &lt;!-- Add Here --&gt;
-      &lt;site&gt;
-        &lt;id&gt;ikedam-update-center&lt;/id&gt;
-        &lt;url&gt;http://ikedam.github.com/jenkins-update-center/update-center.json&lt;/url&gt;
-      &lt;/site&gt;
-      &lt;!-- Add Here --&gt;
-&lt;/sites&gt;
-</pre>
-	<li>Put <a title="Certificate file for ikedam Jenkins Update Center." href="ikedam-update-center.crt">ikedam-update-center.crt</a> in ${JENKINS_HOME}/update-center-rootCAs/ (you have to create a directory).</li>
-	<li>Start your Jenkins.</li>
-	<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
-	<li>Click "Check now"</li>
-</ol>
-<p>For details, see <a href="https://github.com/ikedam/backend-update-center2/wiki/How-to-create-your-own-Jenkins-Update-Center" title="How to create your own Jenkins Update Center">How to create your own Jenkins Update Center</a>.
-
-<h2>Alternate way</h2>
-<ol>
-	<li>Install <a href="update-sites-manager.hpi">UpdateSites Manager plugin</a> to your Jenkins.</li>
-	<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Update Center".</li>
+	<li>Install <a href="https://wiki.jenkins-ci.org/display/JENKINS/UpdateSites+Manager+plugin">UpdateSites Manager plugin</a> to your Jenkins.</li>
+	<ol>
+		<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins".</li>
+		<li>Select Available tab, and filter with "UpdateSites Manager plugin".</li>
+		<li>Check it, and click "Install without restart".</li>
+	</ol>
+	<li>Open "Manage Jenkins" &gt; "Manage Update Center".</li>
 	<li>Add a following update site.
 		<dl>
 			<dt>id</dt>
@@ -67,9 +46,38 @@ fqH7R7uKbb5Z
 -----END CERTIFICATE-----
 				</pre></dd>
 	</li>
+	<li>Open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
+	<li>Click "Check now"</li>
+</ol>
+
+<h2>Alternate way</h2>
+<p>You can have your Jenkins access to this update center without UpdateSites Manager plugin with followings:</p>
+<ol>
+	<li>Stop your Jenkins.</li>
+	<li>Open ${JENKINS_HOME}/hudson.model.UpdateCenter.xml with a text editor.</li>
+	<li>Update its contens as following:<pre>
+&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+&lt;sites&gt;
+    &lt;site&gt;
+        &lt;id&gt;default&lt;/id&gt;
+        &lt;url&gt;http://updates.jenkins-ci.org/update-center.json&lt;/url&gt;
+      &lt;/site&gt;
+      &lt;!-- Add Here --&gt;
+      &lt;site&gt;
+        &lt;id&gt;ikedam-update-center&lt;/id&gt;
+        &lt;url&gt;http://ikedam.github.com/jenkins-update-center/update-center.json&lt;/url&gt;
+      &lt;/site&gt;
+      &lt;!-- Add Here --&gt;
+&lt;/sites&gt;
+</pre>
+	<li>Put <a title="Certificate file for ikedam Jenkins Update Center." href="ikedam-update-center.crt">ikedam-update-center.crt</a> in ${JENKINS_HOME}/update-center-rootCAs/ (you have to create a directory).</li>
+	<li>Start your Jenkins.</li>
 	<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
 	<li>Click "Check now"</li>
 </ol>
+
+<h2>See Also</h2>
+<p>For details about a private update center, see <a href="https://github.com/ikedam/backend-update-center2/wiki/How-to-create-your-own-Jenkins-Update-Center" title="How to create your own Jenkins Update Center">How to create your own Jenkins Update Center</a>.
 
 <h2>Mave repository</h2>
 
