@@ -1,1 +1,66 @@
-{"releaseHistory":[{"date":"Feb 11, 2013","releases":[{"firstRelease":true,"gav":"jp.ikedam.jenkins.plugins:ldap-sasl:0.9.2","timestamp":1360520186000,"title":"LDAP SASL plugin","version":"0.9.2","wiki":"http://dev.ikedam.jp/jenkins/ldap-sasl/"}]},{"date":"Feb 16, 2013","releases":[{"gav":"jp.ikedam.jenkins.plugins:ldap-sasl:1.0.0","latestRelease":true,"timestamp":1361023448000,"title":"LDAP SASL plugin","version":"1.0.0","wiki":"https://github.com/ikedam/ldap-sasl"},{"firstRelease":true,"gav":"jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.0","timestamp":1361025382000,"title":"Viewcopy Builder plugin","version":"0.1.0","wiki":"https://github.com/ikedam/${project.artifactId}"}]},{"date":"Feb 21, 2013","releases":[{"gav":"jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.1","latestRelease":true,"timestamp":1361454820000,"title":"Viewcopy Builder plugin","version":"0.1.1","wiki":"https://github.com/ikedam/viewcopy-builder"}]},{"date":"Mar 03, 2013","releases":[{"firstRelease":true,"gav":"jp.ikedam.jenkins.plugins:quickfix15156:0.1.0","timestamp":1362321710000,"title":"Quickfix Jenkins-15156 plugin","version":"0.1.0","wiki":"https://github.com/ikedam/quickfix15156-builder"}]},{"date":"Mar 04, 2013","releases":[{"gav":"jp.ikedam.jenkins.plugins:quickfix15156:0.2.0","timestamp":1362401134000,"title":"Quickfix Jenkins-15156 plugin","version":"0.2.0","wiki":"https://github.com/ikedam/quickfix15156-builder"}]}]}
+{"releaseHistory": [
+    {
+    "date": "Feb 11, 2013",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:0.9.2",
+      "timestamp": 1360520186000,
+      "title": "LDAP SASL plugin",
+      "version": "0.9.2",
+      "wiki": "http://dev.ikedam.jp/jenkins/ldap-sasl/"
+    }]
+  },
+    {
+    "date": "Feb 16, 2013",
+    "releases":     [
+            {
+        "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.0",
+        "latestRelease": true,
+        "timestamp": 1361023448000,
+        "title": "LDAP SASL plugin",
+        "version": "1.0.0",
+        "wiki": "https://github.com/ikedam/ldap-sasl"
+      },
+            {
+        "firstRelease": true,
+        "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.0",
+        "timestamp": 1361025382000,
+        "title": "Viewcopy Builder plugin",
+        "version": "0.1.0",
+        "wiki": "https://github.com/ikedam/${project.artifactId}"
+      }
+    ]
+  },
+    {
+    "date": "Feb 21, 2013",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.1",
+      "latestRelease": true,
+      "timestamp": 1361454820000,
+      "title": "Viewcopy Builder plugin",
+      "version": "0.1.1",
+      "wiki": "https://github.com/ikedam/viewcopy-builder"
+    }]
+  },
+    {
+    "date": "Mar 03, 2013",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:quickfix15156:0.1.0",
+      "timestamp": 1362321710000,
+      "title": "Quickfix Jenkins-15156 plugin",
+      "version": "0.1.0",
+      "wiki": "https://github.com/ikedam/quickfix15156-builder"
+    }]
+  },
+    {
+    "date": "Mar 04, 2013",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:quickfix15156:0.2.0",
+      "timestamp": 1362401134000,
+      "title": "Quickfix Jenkins-15156 plugin",
+      "version": "0.2.0",
+      "wiki": "https://github.com/ikedam/quickfix15156-builder"
+    }]
+  }
+]}
