@@ -62,5 +62,17 @@
       "version": "0.2.0",
       "wiki": "https://github.com/ikedam/quickfix15156-builder"
     }]
+  },
+    {
+    "date": "Aug 18, 2013",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:scoring-load-balancer:0.1.0",
+      "latestRelease": true,
+      "timestamp": 1376830872000,
+      "title": "Scoring Load Balancer",
+      "version": "0.1.0",
+      "wiki": "https://github.com/ikedam/scoring-load-balancer/"
+    }]
   }
 ]}
