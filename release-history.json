@@ -68,10 +68,20 @@
     "releases": [    {
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:scoring-load-balancer:0.1.0",
-      "latestRelease": true,
       "timestamp": 1376830872000,
       "title": "Scoring Load Balancer",
       "version": "0.1.0",
+      "wiki": "https://github.com/ikedam/scoring-load-balancer/"
+    }]
+  },
+    {
+    "date": "Aug 19, 2013",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:scoring-load-balancer:0.1.1",
+      "latestRelease": true,
+      "timestamp": 1376917382000,
+      "title": "Scoring Load Balancer",
+      "version": "0.1.1",
       "wiki": "https://github.com/ikedam/scoring-load-balancer/"
     }]
   }
