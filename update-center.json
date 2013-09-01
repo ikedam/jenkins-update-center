@@ -66,31 +66,31 @@ updateCenter.post(
       "wiki": "https://github.com/ikedam/scoring-load-balancer/"
     },
     "viewcopy-builder":     {
-      "buildDate": "Feb 21, 2013",
+      "buildDate": "Sep 01, 2013",
       "dependencies": [],
       "developers": [      {
         "developerId": "ikedam",
         "name": "IKEDA Yasuyuki"
       }],
       "excerpt": "Jenkins plugin to copy a view in a build step.",
-      "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.1",
+      "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.9.0",
       "name": "viewcopy-builder",
-      "previousTimestamp": "2013-02-16T14:36:22.00Z",
-      "previousVersion": "0.1.0",
-      "releaseTimestamp": "2013-02-21T13:53:40.00Z",
-      "requiredCore": "1.494",
+      "previousTimestamp": "2013-02-21T13:53:40.00Z",
+      "previousVersion": "0.1.1",
+      "releaseTimestamp": "2013-09-01T08:48:10.00Z",
+      "requiredCore": "1.480",
       "scm": "github.com",
-      "sha1": "nX4aMpKTMtu04JNABCFlnShHApU=",
+      "sha1": "3mh/o8VFYVBQiaEJy1G8f6jySW4=",
       "title": "Viewcopy Builder plugin",
-      "url": "http://ikedam.github.com/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/viewcopy-builder/0.1.1/viewcopy-builder-0.1.1.hpi",
-      "version": "0.1.1",
+      "url": "http://ikedam.github.com/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/viewcopy-builder/0.9.0/viewcopy-builder-0.9.0.hpi",
+      "version": "0.9.0",
       "wiki": "https://github.com/ikedam/viewcopy-builder"
     }
   },
   "signature":   {
     "certificates": ["MIIC1TCCAj6gAwIBAgIJAJoNcT+1HtMXMA0GCSqGSIb3DQEBBQUAMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIEwhLYW5hZ2F3YTEvMC0GA1UEChMmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW0wHhcNMTMwMjEzMTI0NTQ5WhcNMTYwMjEzMTI0NTQ5WjBRMQswCQYDVQQGEwJKUDERMA8GA1UECBMIS2FuYWdhd2ExLzAtBgNVBAoTJklrZWRhbSBKZW5raW5zIHBsdWdpbiBkZXZlbG9wbWVudCB0ZWFtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrV5dXUbGL6GFws6QzwpwJw/Q9VVCWNsEmBBE5zajN0WCbMP8tMQSjqqY1TUPxQu769WlP22v+1VSQubSaQ9z2hPif7uXnkWTUER5+34fqjECiOwKhVGUTMt/vKZT+GHizbwf7TTRVR++n02glI2eGRRYj17xyExaLSx0JO7wEWQIDAQABo4G0MIGxMB0GA1UdDgQWBBTYlqZDfBzyc8T3iuQQKc8HYhp6xjCBgQYDVR0jBHoweIAU2JamQ3wc8nPE94rkECnPB2IaesahVaRTMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIEwhLYW5hZ2F3YTEvMC0GA1UEChMmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW2CCQCaDXE/tR7TFzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAGRQUlFAOCz27L60h4MHwdEWFO3dn5gNUP7VBrdxr6bR7nEhxTWoxokSDRLQ+TYhZHz/WmFql0idu5DDzLbMY+WQfK9H7gjxHmZMsXoquj2MpJQTsN0kXlruSssyeLI/qrAsjTpVA1Uit66Yo8JN47n48XcCcBBvfqH7R7uKbb5Z"],
-    "correct_digest": "bG4zDUGeUn+Vrd9JS5I2jJSbNrs=",
-    "correct_signature": "NfF97FdfnP+HfOdZP7zE+sv2ZcVcc1cdTMR+b9KV9WHXBW1YLwqBSetRvt5HqT4su31oTNS9oWYWR8gttnqH/RMEvOH2FfsLg16D0/HGGds56FEKHvj1tW3zc8aRHBG9HBi9rI7XlwU2z37R0Zqy7rMSs4++n1foWH0lVMmMG58=",
+    "correct_digest": "O+KvxD0uCqVzfVpFaIYeyDHHVRM=",
+    "correct_signature": "Z6bxV3k5YPqPHkvEUsn89CpYPmDNUMaqeGzySXlcWEf68FgWdRG9rB7xIPRGtit2BsxEkb43G3Dt/ov83DrpEuzNGHQPWb8n383GBFErRqVshyIi5zrdXMw0N8CiIUjPqCodeQH4ap6N0N+Dc3nnB4in+Ihw2LBCHViObPzk3gE=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "NBp1+YU3IUntvwvlAuxmX1EZfns/7QQf0EvMFnD9ftf+vd7rv9eQiktcpnwnptfF6/9HzmIzSvADOXRAxtNHCDzDyaVU9X+C2Oo2mP9WsvBJO1Z+OUraGaZ7G0cLnMwt3vTIqTN9wOfg/EhbAZMmJfHVAogSMbZoApj9b5rJ7L8="
   },
