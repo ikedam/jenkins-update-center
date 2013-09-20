@@ -72,5 +72,17 @@
       "version": "0.9.0",
       "wiki": "https://github.com/ikedam/viewcopy-builder"
     }]
+  },
+    {
+    "date": "Sep 21, 2013",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:disable-popup:1.0.0",
+      "latestRelease": true,
+      "timestamp": 1379699162000,
+      "title": "Disable Popup plugin",
+      "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/disable-popup"
+    }]
   }
 ]}
