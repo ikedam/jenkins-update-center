@@ -42,6 +42,36 @@ updateCenter.post(
       "version": "1.0.0",
       "wiki": "https://github.com/ikedam/ldap-sasl"
     },
+    "quickfix-maven-prepostbuilder-projectaction":     {
+      "buildDate": "Dec 01, 2013",
+      "dependencies":       [
+                {
+          "name": "maven-plugin",
+          "optional": false,
+          "version": "1.466"
+        },
+                {
+          "name": "javadoc",
+          "optional": false,
+          "version": "1.0"
+        }
+      ],
+      "developers": [      {
+        "developerId": "ikedam",
+        "name": "IKEDA Yasuyuki"
+      }],
+      "excerpt": "Quickfix to call getProjectAction for prebuilders and postbuilders of MavenModuleSet.",
+      "gav": "jp.ikedam.jenkins.plugins:quickfix-maven-prepostbuilder-projectaction:0.0.1",
+      "name": "quickfix-maven-prepostbuilder-projectaction",
+      "releaseTimestamp": "2013-12-01T13:36:42.00Z",
+      "requiredCore": "1.466",
+      "scm": "github.com",
+      "sha1": "6JuAFTpxgFxjpdCj0Wx2yLCWFCA=",
+      "title": "Quickfix Maven PrepostBuilder Projectaction plugin",
+      "url": "http://ikedam.github.com/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/quickfix-maven-prepostbuilder-projectaction/0.0.1/quickfix-maven-prepostbuilder-projectaction-0.0.1.hpi",
+      "version": "0.0.1",
+      "wiki": "https://github.com/ikedam/quickfix-maven-prepostbuilder-projectaction"
+    },
     "quickfix15156":     {
       "buildDate": "Mar 04, 2013",
       "dependencies": [],
@@ -87,8 +117,8 @@ updateCenter.post(
   },
   "signature":   {
     "certificates": ["MIIC1TCCAj6gAwIBAgIJAJoNcT+1HtMXMA0GCSqGSIb3DQEBBQUAMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIEwhLYW5hZ2F3YTEvMC0GA1UEChMmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW0wHhcNMTMwMjEzMTI0NTQ5WhcNMTYwMjEzMTI0NTQ5WjBRMQswCQYDVQQGEwJKUDERMA8GA1UECBMIS2FuYWdhd2ExLzAtBgNVBAoTJklrZWRhbSBKZW5raW5zIHBsdWdpbiBkZXZlbG9wbWVudCB0ZWFtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrV5dXUbGL6GFws6QzwpwJw/Q9VVCWNsEmBBE5zajN0WCbMP8tMQSjqqY1TUPxQu769WlP22v+1VSQubSaQ9z2hPif7uXnkWTUER5+34fqjECiOwKhVGUTMt/vKZT+GHizbwf7TTRVR++n02glI2eGRRYj17xyExaLSx0JO7wEWQIDAQABo4G0MIGxMB0GA1UdDgQWBBTYlqZDfBzyc8T3iuQQKc8HYhp6xjCBgQYDVR0jBHoweIAU2JamQ3wc8nPE94rkECnPB2IaesahVaRTMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIEwhLYW5hZ2F3YTEvMC0GA1UEChMmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW2CCQCaDXE/tR7TFzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAGRQUlFAOCz27L60h4MHwdEWFO3dn5gNUP7VBrdxr6bR7nEhxTWoxokSDRLQ+TYhZHz/WmFql0idu5DDzLbMY+WQfK9H7gjxHmZMsXoquj2MpJQTsN0kXlruSssyeLI/qrAsjTpVA1Uit66Yo8JN47n48XcCcBBvfqH7R7uKbb5Z"],
-    "correct_digest": "pCMb9riTz5o+oymFJFVOTvvA8qQ=",
-    "correct_signature": "Zg2FWDQ35FvEVG21LnYs/kZPC6LwWIdt3tmOIT+KO7InFcznhOfJ+b0Up7ZdKRdenoWqgVkA79U3I3WoDHzmx/2CLr/x8KF4cMDow4az6TtKxbSeIw0Q5W0gPuifz51mgs316K3+3WNK9uOrX2tTy+YmLeQuhxV+9KbYj9gdmW4=",
+    "correct_digest": "8ofaP1o9x+NxLqW0IMinl75u/WM=",
+    "correct_signature": "D3hZa2uNa12NmSCBK1PqMkmwKju2ZZEGJN39FxR9rrg9q0rkzIZFxlywQY6AbWkNOXrKzqovTWCiRsBKAdeUtJnen8xtaSQB/yRuuZAMBsui9g5r1b5AbbMrq82PrcGkMxGbVSkb8jdHKQl9ZFbK9c5yJXMJRy4lvG3Dg3TMvNU=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "NBp1+YU3IUntvwvlAuxmX1EZfns/7QQf0EvMFnD9ftf+vd7rv9eQiktcpnwnptfF6/9HzmIzSvADOXRAxtNHCDzDyaVU9X+C2Oo2mP9WsvBJO1Z+OUraGaZ7G0cLnMwt3vTIqTN9wOfg/EhbAZMmJfHVAogSMbZoApj9b5rJ7L8="
   },

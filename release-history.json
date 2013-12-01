@@ -84,5 +84,17 @@
       "version": "1.0.0",
       "wiki": "https://github.com/ikedam/disable-popup"
     }]
+  },
+    {
+    "date": "Dec 01, 2013",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:quickfix-maven-prepostbuilder-projectaction:0.0.1",
+      "latestRelease": true,
+      "timestamp": 1385905002000,
+      "title": "Quickfix Maven PrepostBuilder Projectaction plugin",
+      "version": "0.0.1",
+      "wiki": "https://github.com/ikedam/quickfix-maven-prepostbuilder-projectaction"
+    }]
   }
 ]}
