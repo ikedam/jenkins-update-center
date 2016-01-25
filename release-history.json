@@ -15,7 +15,6 @@
     "releases":     [
             {
         "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.0",
-        "latestRelease": true,
         "timestamp": 1361023448000,
         "title": "LDAP SASL plugin",
         "version": "1.0.0",
@@ -95,6 +94,17 @@
       "title": "Quickfix Maven PrepostBuilder Projectaction plugin",
       "version": "0.0.1",
       "wiki": "https://github.com/ikedam/quickfix-maven-prepostbuilder-projectaction"
+    }]
+  },
+    {
+    "date": "Jan 25, 2016",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.1",
+      "latestRelease": true,
+      "timestamp": 1453730836000,
+      "title": "LDAP SASL plugin",
+      "version": "1.0.1",
+      "wiki": "https://github.com/ikedam/ldap-sasl"
     }]
   }
 ]}
