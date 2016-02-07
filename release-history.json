@@ -100,7 +100,6 @@
     "date": "Jan 25, 2016",
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.1",
-      "latestRelease": true,
       "timestamp": 1453730836000,
       "title": "LDAP SASL plugin",
       "version": "1.0.1",
@@ -129,6 +128,17 @@
       "title": "PageDecorator plugin",
       "version": "1.0.0",
       "wiki": "https://github.com/ikedam/page-decorator-plugin"
+    }]
+  },
+    {
+    "date": "Feb 08, 2016",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.0",
+      "latestRelease": true,
+      "timestamp": 1454886320000,
+      "title": "LDAP SASL plugin",
+      "version": "2.0.0",
+      "wiki": "https://github.com/ikedam/ldap-sasl"
     }]
   }
 ]}
