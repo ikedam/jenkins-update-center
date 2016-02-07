@@ -72,6 +72,25 @@ updateCenter.post(
       "version": "1.0.1",
       "wiki": "https://github.com/ikedam/ldap-sasl"
     },
+    "page-decorator":     {
+      "buildDate": "Feb 07, 2016",
+      "dependencies": [],
+      "developers": [      {
+        "developerId": "ikedam",
+        "name": "IKEDA Yasuyuki"
+      }],
+      "excerpt": "Provides configure header and footer appended for all pages.",
+      "gav": "jp.ikedam.jenkins.plugins:page-decorator:1.0.0",
+      "name": "page-decorator",
+      "releaseTimestamp": "2016-02-07T03:32:36.00Z",
+      "requiredCore": "1.466",
+      "scm": "github.com",
+      "sha1": "X716GZ3/pA2PbMxzRHndVU/mgns=",
+      "title": "PageDecorator plugin",
+      "url": "https://ikedam.github.io/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/page-decorator/1.0.0/page-decorator-1.0.0.hpi",
+      "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/page-decorator-plugin"
+    },
     "quickfix-maven-prepostbuilder-projectaction":     {
       "buildDate": "Dec 01, 2013",
       "dependencies":       [
@@ -147,8 +166,8 @@ updateCenter.post(
   },
   "signature":   {
     "certificates": ["MIICcDCCAdmgAwIBAgIJAIVl3Zn6rdHRMA0GCSqGSIb3DQEBCwUAMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIDAhLYW5hZ2F3YTEvMC0GA1UECgwmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW0wHhcNMTYwMTMxMDQwMzU5WhcNMTkwMTMwMDQwMzU5WjBRMQswCQYDVQQGEwJKUDERMA8GA1UECAwIS2FuYWdhd2ExLzAtBgNVBAoMJklrZWRhbSBKZW5raW5zIHBsdWdpbiBkZXZlbG9wbWVudCB0ZWFtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrV5dXUbGL6GFws6QzwpwJw/Q9VVCWNsEmBBE5zajN0WCbMP8tMQSjqqY1TUPxQu769WlP22v+1VSQubSaQ9z2hPif7uXnkWTUER5+34fqjECiOwKhVGUTMt/vKZT+GHizbwf7TTRVR++n02glI2eGRRYj17xyExaLSx0JO7wEWQIDAQABo1AwTjAdBgNVHQ4EFgQU2JamQ3wc8nPE94rkECnPB2IaesYwHwYDVR0jBBgwFoAU2JamQ3wc8nPE94rkECnPB2IaesYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCOzPxSOJcbuivjh5Y5yYSXYzYE7oJwCay3+9gpejvyt3MvTsjMD6ErQR9HG2DumF72XCdE6K9dPA/MZANALmaPBhMMC3LZvE52qIk+HdT880nFP/F/0fttZ3jWDEoM15ZqXp3vCPQWg4n1/Wl7ewGVuBzZYTayUx3FMBgOaoYU0A=="],
-    "correct_digest": "JGigwIqFCFZMdB1z/FZlNPKl6AY=",
-    "correct_signature": "ClZcigjyaex4LOod7UHZIVU+LSXi2pOJ9FgDjXX/Mz0DmgU9LsnsnKjojyoR8KD8wHKFw7u2WMvtrCaGUdb/dVtIcH09uoMu3Yh8wL9P/hXjNjRhbJ2OYaWrDCRS7DrR+Q+ZMxfDYbtRT4gHbN5wG4DRcwCghQ+nmUHWy/UlUtk=",
+    "correct_digest": "E5GPFXUYikctv/qN6F/EWfKjO2c=",
+    "correct_signature": "ZWbHQtclSTdihmx+nEvPb7ph1ZlCLliCco0B8D5JhC9JIKWli/NozN6c0CiJGgKwaSg5VCJSfwqQJG7I2BbAAr5pphrog4sowVPwjrqr5bwRaXEm7uBl2R3RbG81RvsgLtf+hRCdRmhLgXbFR1dZgh5NWrhtzWYm2x2Hfl7AiRk=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "NBp1+YU3IUntvwvlAuxmX1EZfns/7QQf0EvMFnD9ftf+vd7rv9eQiktcpnwnptfF6/9HzmIzSvADOXRAxtNHCDzDyaVU9X+C2Oo2mP9WsvBJO1Z+OUraGaZ7G0cLnMwt3vTIqTN9wOfg/EhbAZMmJfHVAogSMbZoApj9b5rJ7L8="
   },

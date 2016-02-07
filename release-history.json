@@ -118,5 +118,17 @@
       "version": "1.0.0",
       "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
     }]
+  },
+    {
+    "date": "Feb 07, 2016",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:page-decorator:1.0.0",
+      "latestRelease": true,
+      "timestamp": 1454815956000,
+      "title": "PageDecorator plugin",
+      "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/page-decorator-plugin"
+    }]
   }
 ]}
