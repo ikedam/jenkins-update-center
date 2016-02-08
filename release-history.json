@@ -134,10 +134,20 @@
     "date": "Feb 08, 2016",
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.0",
-      "latestRelease": true,
       "timestamp": 1454886320000,
       "title": "LDAP SASL plugin",
       "version": "2.0.0",
+      "wiki": "https://github.com/ikedam/ldap-sasl"
+    }]
+  },
+    {
+    "date": "Feb 09, 2016",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.1",
+      "latestRelease": true,
+      "timestamp": 1454969454000,
+      "title": "LDAP SASL plugin",
+      "version": "2.0.1",
       "wiki": "https://github.com/ikedam/ldap-sasl"
     }]
   }
