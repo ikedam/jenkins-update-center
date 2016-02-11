@@ -152,13 +152,24 @@
   },
     {
     "date": "Feb 11, 2016",
-    "releases": [    {
-      "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.2",
-      "latestRelease": true,
-      "timestamp": 1455152436000,
-      "title": "LDAP SASL plugin",
-      "version": "2.0.2",
-      "wiki": "https://github.com/ikedam/ldap-sasl"
-    }]
+    "releases":     [
+            {
+        "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.2",
+        "latestRelease": true,
+        "timestamp": 1455152436000,
+        "title": "LDAP SASL plugin",
+        "version": "2.0.2",
+        "wiki": "https://github.com/ikedam/ldap-sasl"
+      },
+            {
+        "firstRelease": true,
+        "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.0",
+        "latestRelease": true,
+        "timestamp": 1455167130000,
+        "title": "Redirect 404 Plugin",
+        "version": "1.0.0",
+        "wiki": "https://github.com/ikedam/redirect404-plugin"
+      }
+    ]
   }
 ]}

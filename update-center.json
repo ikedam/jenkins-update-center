@@ -142,6 +142,25 @@ updateCenter.post(
       "version": "0.2.1",
       "wiki": "https://github.com/ikedam/quickfix15156-builder"
     },
+    "redirect404":     {
+      "buildDate": "Feb 11, 2016",
+      "dependencies": [],
+      "developers": [      {
+        "developerId": "ikedam",
+        "name": "IKEDA Yasuyuki"
+      }],
+      "excerpt": "Redirects unauthenticated users to the login page when they accessed unauthorized pages.",
+      "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.0",
+      "name": "redirect404",
+      "releaseTimestamp": "2016-02-11T05:05:30.00Z",
+      "requiredCore": "1.466",
+      "scm": "github.com",
+      "sha1": "tYJAcEn7hkw15niJ71c+nZ4z6lA=",
+      "title": "Redirect 404 Plugin",
+      "url": "https://ikedam.github.io/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/redirect404/1.0.0/redirect404-1.0.0.hpi",
+      "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/redirect404-plugin"
+    },
     "viewcopy-builder":     {
       "buildDate": "Sep 01, 2013",
       "dependencies": [],
@@ -166,8 +185,8 @@ updateCenter.post(
   },
   "signature":   {
     "certificates": ["MIICcDCCAdmgAwIBAgIJAIVl3Zn6rdHRMA0GCSqGSIb3DQEBCwUAMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIDAhLYW5hZ2F3YTEvMC0GA1UECgwmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW0wHhcNMTYwMTMxMDQwMzU5WhcNMTkwMTMwMDQwMzU5WjBRMQswCQYDVQQGEwJKUDERMA8GA1UECAwIS2FuYWdhd2ExLzAtBgNVBAoMJklrZWRhbSBKZW5raW5zIHBsdWdpbiBkZXZlbG9wbWVudCB0ZWFtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrV5dXUbGL6GFws6QzwpwJw/Q9VVCWNsEmBBE5zajN0WCbMP8tMQSjqqY1TUPxQu769WlP22v+1VSQubSaQ9z2hPif7uXnkWTUER5+34fqjECiOwKhVGUTMt/vKZT+GHizbwf7TTRVR++n02glI2eGRRYj17xyExaLSx0JO7wEWQIDAQABo1AwTjAdBgNVHQ4EFgQU2JamQ3wc8nPE94rkECnPB2IaesYwHwYDVR0jBBgwFoAU2JamQ3wc8nPE94rkECnPB2IaesYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCOzPxSOJcbuivjh5Y5yYSXYzYE7oJwCay3+9gpejvyt3MvTsjMD6ErQR9HG2DumF72XCdE6K9dPA/MZANALmaPBhMMC3LZvE52qIk+HdT880nFP/F/0fttZ3jWDEoM15ZqXp3vCPQWg4n1/Wl7ewGVuBzZYTayUx3FMBgOaoYU0A=="],
-    "correct_digest": "o1htx3rgX4VKyuvDpDBr1WzYZF0=",
-    "correct_signature": "aTDH+yF41D4GufdhEy/X+PLXIvmKCFLT0DDAKEyFthpD+uq52HdcdIU/X7ikCFQltZfd7jdlmg4Xv6ceo24N6GVncDoCH/rMzigIi98OcNuWgpgeCUHuTMNf6PSfFjt/QvW250RC31s9ms6rCWM+2ziTvHjuvW2TeGMCc7tAqfw=",
+    "correct_digest": "z6W88N9k++XPHZjyFY6QE9nXMzg=",
+    "correct_signature": "RxX8h2N0ffIah98/+OnbuW921YCJzi7VZ2QxyRis6cJV6rcXrmTqo/M68noRpD6dpNvG5sC4mwPNeY7rygXfZTuSTrP8iIYmBfk8ADpXnx8scaRgQkA229EEp4Dvfp9Fedac04Asi8tuQ4I+4epicPrfCny2lCcFvOKZMZ1W/Jg=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "NBp1+YU3IUntvwvlAuxmX1EZfns/7QQf0EvMFnD9ftf+vd7rv9eQiktcpnwnptfF6/9HzmIzSvADOXRAxtNHCDzDyaVU9X+C2Oo2mP9WsvBJO1Z+OUraGaZ7G0cLnMwt3vTIqTN9wOfg/EhbAZMmJfHVAogSMbZoApj9b5rJ7L8="
   },
