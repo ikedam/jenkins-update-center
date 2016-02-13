@@ -164,12 +164,22 @@
             {
         "firstRelease": true,
         "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.0",
-        "latestRelease": true,
         "timestamp": 1455167130000,
         "title": "Redirect 404 Plugin",
         "version": "1.0.0",
         "wiki": "https://github.com/ikedam/redirect404-plugin"
       }
     ]
+  },
+    {
+    "date": "Feb 13, 2016",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.1",
+      "latestRelease": true,
+      "timestamp": 1455339424000,
+      "title": "Redirect 404 Plugin",
+      "version": "1.0.1",
+      "wiki": "https://github.com/ikedam/redirect404-plugin"
+    }]
   }
 ]}
