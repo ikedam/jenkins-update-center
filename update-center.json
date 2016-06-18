@@ -22,12 +22,22 @@ updateCenter.post(
       "wiki": "https://github.com/ikedam/disable-popup"
     },
     "git-shallow-depth":     {
-      "buildDate": "Jan 31, 2016",
+      "buildDate": "Jun 19, 2016",
       "dependencies":       [
                 {
           "name": "git",
           "optional": false,
           "version": "2.4.0"
+        },
+                {
+          "name": "email-ext",
+          "optional": true,
+          "version": "2.38"
+        },
+                {
+          "name": "matrix-project",
+          "optional": true,
+          "version": "1.3"
         },
                 {
           "name": "git-client",
@@ -39,16 +49,18 @@ updateCenter.post(
         "developerId": "ikedam",
         "name": "IKEDA Yasuyuki"
       }],
-      "excerpt": "Specifies the depth for shallow clone. Workaround untill JENKINS-24728 is fixed.",
-      "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.0.0",
+      "excerpt": "Extended features for git shallow clone",
+      "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.0",
       "name": "git-shallow-depth",
-      "releaseTimestamp": "2016-01-31T04:03:32.00Z",
+      "previousTimestamp": "2016-01-31T04:03:32.00Z",
+      "previousVersion": "1.0.0",
+      "releaseTimestamp": "2016-06-18T18:59:56.00Z",
       "requiredCore": "1.580",
       "scm": "github.com",
-      "sha1": "+rGjkDRPQy5794onkEf1P3lMp2s=",
+      "sha1": "fj6gLlgU8U0t2XRp42OMaycp1Zg=",
       "title": "Git shallow depth plugin",
-      "url": "https://ikedam.github.io/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/git-shallow-depth/1.0.0/git-shallow-depth-1.0.0.hpi",
-      "version": "1.0.0",
+      "url": "https://ikedam.github.io/jenkins-update-center/releases/jp/ikedam/jenkins/plugins/git-shallow-depth/1.1.0/git-shallow-depth-1.1.0.hpi",
+      "version": "1.1.0",
       "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
     },
     "ldap-sasl":     {
@@ -187,8 +199,8 @@ updateCenter.post(
   },
   "signature":   {
     "certificates": ["MIICcDCCAdmgAwIBAgIJAIVl3Zn6rdHRMA0GCSqGSIb3DQEBCwUAMFExCzAJBgNVBAYTAkpQMREwDwYDVQQIDAhLYW5hZ2F3YTEvMC0GA1UECgwmSWtlZGFtIEplbmtpbnMgcGx1Z2luIGRldmVsb3BtZW50IHRlYW0wHhcNMTYwMTMxMDQwMzU5WhcNMTkwMTMwMDQwMzU5WjBRMQswCQYDVQQGEwJKUDERMA8GA1UECAwIS2FuYWdhd2ExLzAtBgNVBAoMJklrZWRhbSBKZW5raW5zIHBsdWdpbiBkZXZlbG9wbWVudCB0ZWFtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrV5dXUbGL6GFws6QzwpwJw/Q9VVCWNsEmBBE5zajN0WCbMP8tMQSjqqY1TUPxQu769WlP22v+1VSQubSaQ9z2hPif7uXnkWTUER5+34fqjECiOwKhVGUTMt/vKZT+GHizbwf7TTRVR++n02glI2eGRRYj17xyExaLSx0JO7wEWQIDAQABo1AwTjAdBgNVHQ4EFgQU2JamQ3wc8nPE94rkECnPB2IaesYwHwYDVR0jBBgwFoAU2JamQ3wc8nPE94rkECnPB2IaesYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCOzPxSOJcbuivjh5Y5yYSXYzYE7oJwCay3+9gpejvyt3MvTsjMD6ErQR9HG2DumF72XCdE6K9dPA/MZANALmaPBhMMC3LZvE52qIk+HdT880nFP/F/0fttZ3jWDEoM15ZqXp3vCPQWg4n1/Wl7ewGVuBzZYTayUx3FMBgOaoYU0A=="],
-    "correct_digest": "1KdjFoMHrhViTeuRarYrLSfEyBc=",
-    "correct_signature": "QWFuuuwBbTWjz0BXnQPrs+k8fN61rDfxXm8ZDJE2PCGptmef8RNH91skfm8HL0cMNlSYmAfCYPYgVG1t9U2QMgKeCjj7K2mflJHzQ69eIkhcDz0ZRnfM7UQPS+HrQI4+ZTPLoCbUVDHMsRyPywDW3Ue18MPiT36xWiaEkMpAjxU=",
+    "correct_digest": "wM8uY+s0WGBbK2fsaYpwKc3gdfM=",
+    "correct_signature": "mKMY6gpZywTcs1pyhrjsYKKFfhhRMmWVJzTpZ0fBQzzu/UNA+2JDFOow1AAhxRdDyR/0Ff72tejeSqFJWysgzPQlek8TXWCAGjGaAyv066Lmd4/K5330istaSqutXWh/LxNA/TFR275+aTjnsH6Er8EmhuLxWVw5OdbGudDckDo=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "NBp1+YU3IUntvwvlAuxmX1EZfns/7QQf0EvMFnD9ftf+vd7rv9eQiktcpnwnptfF6/9HzmIzSvADOXRAxtNHCDzDyaVU9X+C2Oo2mP9WsvBJO1Z+OUraGaZ7G0cLnMwt3vTIqTN9wOfg/EhbAZMmJfHVAogSMbZoApj9b5rJ7L8="
   },
