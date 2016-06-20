@@ -185,10 +185,20 @@
     "date": "Jun 19, 2016",
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.0",
-      "latestRelease": true,
       "timestamp": 1466276396000,
       "title": "Git shallow depth plugin",
       "version": "1.1.0",
+      "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
+    }]
+  },
+    {
+    "date": "Jun 21, 2016",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.1",
+      "latestRelease": true,
+      "timestamp": 1466464414000,
+      "title": "Git shallow depth plugin",
+      "version": "1.1.1",
       "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
     }]
   }
