@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>2.36</version>
+    <relativePath />
+  </parent>
+  <groupId>jp.ikedam.jenkins.plugins</groupId>
+  <artifactId>git-status-trigger</artifactId>
+  <version>1.0.0</version>
+  <packaging>hpi</packaging>
+
+  <properties>
+    <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
+    <jenkins.version>1.466</jenkins.version>
+    <!-- Other properties you may want to use:
+         ~ java.level: set to 6 if your jenkins.version <= 1.611 ~ jenkins-test-harness.version: Jenkins Test Harness version you use to test the plugin. For Jenkins version >= 1.580.1 use JTH 2.0 or higher.
+         ~ hpi-plugin.version: The HPI Maven Plugin version used by the plugin..
+         ~ stapler-plugin.version: The Stapler Maven plugin version required by the plugin.
+    -->
+    <jenkins-test-harness.version>1.466</jenkins-test-harness.version>
+    <java.level>5</java.level>
+  </properties>
+
+  <name>Git Status Trigger plugin</name>
+  <description>Trigger builds when GitStatus.Listener fire.</description>
+  <url>https://github.com/ikedam/git-status-trigger-plugin</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>ikedam</id>
+      <name>IKEDA Yasuyuki</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/ikedam/${project.artifactId}-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:ikedam/${project.artifactId}-plugin.git</developerConnection>
+    <url>https://github.com/ikedam/${project.artifactId}-plugin</url>
+    <tag>git-status-trigger-1.0.0</tag>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <!-- jenkins-test-harness < 1.545 doesn't support concurrent tests. -->
+          <forkCount>1</forkCount>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>display-info</id>
+            <configuration>
+              <rules>
+                <bannedDependencies>
+                  <excludes>
+                    <!-- <exclude>org.sonatype.sisu:sisu-guice</exclude> -->
+                    <exclude>log4j:log4j:*:jar:compile</exclude>
+                    <exclude>log4j:log4j:*:jar:runtime</exclude>
+                    <exclude>commons-logging:commons-logging:*:jar:compile</exclude>
+                    <exclude>commons-logging:commons-logging:*:jar:runtime</exclude>
+                  </excludes>
+                </bannedDependencies>
+                <enforceBytecodeVersion>
+                  <excludes combine.children="append">
+                    <!-- dependencies via jenkins-core-1.466 -->
+                    <exclude>org.kohsuke:asm3</exclude>
+                  </excludes>
+                </enforceBytecodeVersion>
+                <requireUpperBoundDeps>
+                  <excludes combine.children="append">
+                    <!-- dependencies via jenkins-core-1.466 -->
+                    <exclude>commons-collections:commons-collections</exclude>
+                    <exclude>org.jenkins-ci.modules:instance-identity</exclude>
+                    <exclude>org.codehaus.plexus:plexus-classworlds</exclude>
+                    <exclude>org.codehaus.plexus:plexus-utils</exclude>
+                  </excludes>
+                </requireUpperBoundDeps>
+              </rules>
+          </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>git</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>internal.repo.release</id>
+      <name>Internal Repository for Release</name>
+      <url>${internal.repo.path}/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>internal.repo.snapshot</id>
+      <name>Internal Repository for snapshot</name>
+      <url>${internal.repo.path}/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+</project>

@@ -5,9 +5,8 @@
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:0.9.2",
       "timestamp": 1360520186000,
-      "title": "LDAP SASL plugin",
-      "version": "0.9.2",
-      "wiki": "http://dev.ikedam.jp/jenkins/ldap-sasl/"
+      "url": "https://plugins.jenkins.io/ldap-sasl",
+      "version": "0.9.2"
     }]
   },
     {
@@ -16,17 +15,15 @@
             {
         "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.0",
         "timestamp": 1361023448000,
-        "title": "LDAP SASL plugin",
-        "version": "1.0.0",
-        "wiki": "https://github.com/ikedam/ldap-sasl"
+        "url": "https://plugins.jenkins.io/ldap-sasl",
+        "version": "1.0.0"
       },
             {
         "firstRelease": true,
         "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.0",
         "timestamp": 1361025382000,
-        "title": "Viewcopy Builder plugin",
-        "version": "0.1.0",
-        "wiki": "https://github.com/ikedam/${project.artifactId}"
+        "url": "https://plugins.jenkins.io/viewcopy-builder",
+        "version": "0.1.0"
       }
     ]
   },
@@ -35,9 +32,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.1.1",
       "timestamp": 1361454820000,
-      "title": "Viewcopy Builder plugin",
-      "version": "0.1.1",
-      "wiki": "https://github.com/ikedam/viewcopy-builder"
+      "url": "https://plugins.jenkins.io/viewcopy-builder",
+      "version": "0.1.1"
     }]
   },
     {
@@ -46,9 +42,8 @@
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:quickfix15156:0.1.0",
       "timestamp": 1362321710000,
-      "title": "Quickfix Jenkins-15156 plugin",
-      "version": "0.1.0",
-      "wiki": "https://github.com/ikedam/quickfix15156-builder"
+      "url": "https://plugins.jenkins.io/quickfix15156",
+      "version": "0.1.0"
     }]
   },
     {
@@ -56,9 +51,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:quickfix15156:0.2.0",
       "timestamp": 1362401134000,
-      "title": "Quickfix Jenkins-15156 plugin",
-      "version": "0.2.0",
-      "wiki": "https://github.com/ikedam/quickfix15156-builder"
+      "url": "https://plugins.jenkins.io/quickfix15156",
+      "version": "0.2.0"
     }]
   },
     {
@@ -67,9 +61,8 @@
       "gav": "jp.ikedam.jenkins.plugins:viewcopy-builder:0.9.0",
       "latestRelease": true,
       "timestamp": 1378025290000,
-      "title": "Viewcopy Builder plugin",
-      "version": "0.9.0",
-      "wiki": "https://github.com/ikedam/viewcopy-builder"
+      "url": "https://plugins.jenkins.io/viewcopy-builder",
+      "version": "0.9.0"
     }]
   },
     {
@@ -79,9 +72,8 @@
       "gav": "jp.ikedam.jenkins.plugins:disable-popup:1.0.0",
       "latestRelease": true,
       "timestamp": 1379699162000,
-      "title": "Disable Popup plugin",
-      "version": "1.0.0",
-      "wiki": "https://github.com/ikedam/disable-popup"
+      "url": "https://plugins.jenkins.io/disable-popup",
+      "version": "1.0.0"
     }]
   },
     {
@@ -91,9 +83,8 @@
       "gav": "jp.ikedam.jenkins.plugins:quickfix-maven-prepostbuilder-projectaction:0.0.1",
       "latestRelease": true,
       "timestamp": 1385905002000,
-      "title": "Quickfix Maven PrepostBuilder Projectaction plugin",
-      "version": "0.0.1",
-      "wiki": "https://github.com/ikedam/quickfix-maven-prepostbuilder-projectaction"
+      "url": "https://plugins.jenkins.io/quickfix-maven-prepostbuilder-projectaction",
+      "version": "0.0.1"
     }]
   },
     {
@@ -101,9 +92,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:1.0.1",
       "timestamp": 1453730836000,
-      "title": "LDAP SASL plugin",
-      "version": "1.0.1",
-      "wiki": "https://github.com/ikedam/ldap-sasl"
+      "url": "https://plugins.jenkins.io/ldap-sasl",
+      "version": "1.0.1"
     }]
   },
     {
@@ -112,9 +102,8 @@
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.0.0",
       "timestamp": 1454213012000,
-      "title": "Git shallow depth plugin",
-      "version": "1.0.0",
-      "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
+      "url": "https://plugins.jenkins.io/git-shallow-depth",
+      "version": "1.0.0"
     }]
   },
     {
@@ -124,9 +113,8 @@
       "gav": "jp.ikedam.jenkins.plugins:page-decorator:1.0.0",
       "latestRelease": true,
       "timestamp": 1454815956000,
-      "title": "PageDecorator plugin",
-      "version": "1.0.0",
-      "wiki": "https://github.com/ikedam/page-decorator-plugin"
+      "url": "https://plugins.jenkins.io/page-decorator",
+      "version": "1.0.0"
     }]
   },
     {
@@ -134,9 +122,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.0",
       "timestamp": 1454886320000,
-      "title": "LDAP SASL plugin",
-      "version": "2.0.0",
-      "wiki": "https://github.com/ikedam/ldap-sasl"
+      "url": "https://plugins.jenkins.io/ldap-sasl",
+      "version": "2.0.0"
     }]
   },
     {
@@ -144,9 +131,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.1",
       "timestamp": 1454969454000,
-      "title": "LDAP SASL plugin",
-      "version": "2.0.1",
-      "wiki": "https://github.com/ikedam/ldap-sasl"
+      "url": "https://plugins.jenkins.io/ldap-sasl",
+      "version": "2.0.1"
     }]
   },
     {
@@ -156,17 +142,15 @@
         "gav": "jp.ikedam.jenkins.plugins:ldap-sasl:2.0.2",
         "latestRelease": true,
         "timestamp": 1455152436000,
-        "title": "LDAP SASL plugin",
-        "version": "2.0.2",
-        "wiki": "https://github.com/ikedam/ldap-sasl"
+        "url": "https://plugins.jenkins.io/ldap-sasl",
+        "version": "2.0.2"
       },
             {
         "firstRelease": true,
         "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.0",
         "timestamp": 1455167130000,
-        "title": "Redirect 404 Plugin",
-        "version": "1.0.0",
-        "wiki": "https://github.com/ikedam/redirect404-plugin"
+        "url": "https://plugins.jenkins.io/redirect404",
+        "version": "1.0.0"
       }
     ]
   },
@@ -176,9 +160,8 @@
       "gav": "jp.ikedam.jenkins.plugins:redirect404:1.0.1",
       "latestRelease": true,
       "timestamp": 1455339424000,
-      "title": "Redirect 404 Plugin",
-      "version": "1.0.1",
-      "wiki": "https://github.com/ikedam/redirect404-plugin"
+      "url": "https://plugins.jenkins.io/redirect404",
+      "version": "1.0.1"
     }]
   },
     {
@@ -186,9 +169,8 @@
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.0",
       "timestamp": 1466276396000,
-      "title": "Git shallow depth plugin",
-      "version": "1.1.0",
-      "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
+      "url": "https://plugins.jenkins.io/git-shallow-depth",
+      "version": "1.1.0"
     }]
   },
     {
@@ -197,9 +179,21 @@
       "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.1",
       "latestRelease": true,
       "timestamp": 1466464414000,
-      "title": "Git shallow depth plugin",
-      "version": "1.1.1",
-      "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
+      "url": "https://plugins.jenkins.io/git-shallow-depth",
+      "version": "1.1.1"
+    }]
+  },
+    {
+    "date": "Oct 15, 2017",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "jp.ikedam.jenkins.plugins:git-status-trigger:1.0.0",
+      "latestRelease": true,
+      "timestamp": 1508043970000,
+      "title": "Git Status Trigger plugin",
+      "url": "https://plugins.jenkins.io/git-status-trigger",
+      "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/git-status-trigger-plugin"
     }]
   }
 ]}
