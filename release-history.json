@@ -188,11 +188,22 @@
     "releases": [    {
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:git-status-trigger:1.0.0",
-      "latestRelease": true,
       "timestamp": 1508043970000,
       "title": "Git Status Trigger plugin",
       "url": "https://plugins.jenkins.io/git-status-trigger",
       "version": "1.0.0",
+      "wiki": "https://github.com/ikedam/git-status-trigger-plugin"
+    }]
+  },
+    {
+    "date": "Oct 21, 2017",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:git-status-trigger:1.0.1",
+      "latestRelease": true,
+      "timestamp": 1508561790000,
+      "title": "Git Status Trigger plugin",
+      "url": "https://plugins.jenkins.io/git-status-trigger",
+      "version": "1.0.1",
       "wiki": "https://github.com/ikedam/git-status-trigger-plugin"
     }]
   }
