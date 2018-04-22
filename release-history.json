@@ -177,7 +177,6 @@
     "date": "Jun 21, 2016",
     "releases": [    {
       "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.1",
-      "latestRelease": true,
       "timestamp": 1466464414000,
       "url": "https://plugins.jenkins.io/git-shallow-depth",
       "version": "1.1.1"
@@ -189,10 +188,8 @@
       "firstRelease": true,
       "gav": "jp.ikedam.jenkins.plugins:git-status-trigger:1.0.0",
       "timestamp": 1508043970000,
-      "title": "Git Status Trigger plugin",
       "url": "https://plugins.jenkins.io/git-status-trigger",
-      "version": "1.0.0",
-      "wiki": "https://github.com/ikedam/git-status-trigger-plugin"
+      "version": "1.0.0"
     }]
   },
     {
@@ -201,10 +198,20 @@
       "gav": "jp.ikedam.jenkins.plugins:git-status-trigger:1.0.1",
       "latestRelease": true,
       "timestamp": 1508561790000,
-      "title": "Git Status Trigger plugin",
       "url": "https://plugins.jenkins.io/git-status-trigger",
-      "version": "1.0.1",
-      "wiki": "https://github.com/ikedam/git-status-trigger-plugin"
+      "version": "1.0.1"
+    }]
+  },
+    {
+    "date": "Apr 22, 2018",
+    "releases": [    {
+      "gav": "jp.ikedam.jenkins.plugins:git-shallow-depth:1.1.2",
+      "latestRelease": true,
+      "timestamp": 1524375850000,
+      "title": "Git shallow depth plugin",
+      "url": "https://plugins.jenkins.io/git-shallow-depth",
+      "version": "1.1.2",
+      "wiki": "https://github.com/ikedam/git-shallow-depth-plugin"
     }]
   }
 ]}
